@@ -1,4 +1,4 @@
-export default function UI() {
+export default function UI(state) {
   let template = document.createElement("section");
   template.innerHTML = /* html */ `
 			<div>

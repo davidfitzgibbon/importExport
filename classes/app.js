@@ -1,9 +1,5 @@
-import "./ui.js";
-
-let ui;
-let state;
-ui = new UI();
-state = {
+import UI from "./ui.js";
+let state = {
   donuts: [
     {
       id: "plain",
@@ -38,6 +34,7 @@ state = {
   ],
   el: document.getElementById("app"),
 };
+let ui = new UI(state);
 ui.init();
 
 window.donuts = () => {
