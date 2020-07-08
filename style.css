@@ -1,0 +1,16 @@
+* {
+  font-family: sans-serif;
+  color: #444;
+}
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+h5 {
+  margin: 0;
+  padding: 0.5rem 1rem;
+}
+h5:hover {
+  cursor: pointer;
+  background: lightgoldenrodyellow;
+}
